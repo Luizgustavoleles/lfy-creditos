@@ -181,3 +181,4 @@ O arquivo `.nojekyll` evita processamento desnecessário pelo Jekyll. Não há s
 ## Segurança e manutenção
 
 O backend valida novamente nome, CPF, telefone, aceites, limites e parcelas; recalcula valores; neutraliza conteúdo com risco de fórmula; usa `LockService`; gera protocolo único; limita duplicidades recentes e não retorna dados pessoais. Esses controles reduzem riscos, mas não constituem proteção absoluta. Restrinja o acesso à planilha e revise periodicamente as pessoas e integrações autorizadas.
+Site publicado pelo GitHub Pages.
