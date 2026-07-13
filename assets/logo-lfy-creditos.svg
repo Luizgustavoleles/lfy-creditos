@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="248" height="56" viewBox="0 0 248 56" role="img" aria-labelledby="title desc">
+  <title id="title">LFY Créditos</title><desc id="desc">Símbolo LFY com seta ascendente e nome LFY Créditos</desc>
+  <g fill="none" fill-rule="evenodd">
+    <rect width="56" height="56" rx="16" fill="#0B1F3A"/>
+    <path d="M14 16v24h15" stroke="#FFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M25 39V18h12" stroke="#16A673" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m34 28 7 7 7-11m0 0h-8m8 0v8" stroke="#FFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="70" y="28" fill="#0B1F3A" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800" letter-spacing="-.6">LFY</text>
+    <text x="70" y="45" fill="#5B6472" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" letter-spacing=".4">CRÉDITOS</text>
+  </g>
+</svg>

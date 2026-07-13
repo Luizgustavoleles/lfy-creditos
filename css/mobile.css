@@ -1,0 +1,22 @@
+/* Campo de data com o mesmo padrão visual dos demais dados pessoais. */
+.form-field input[type="date"] {
+  width: 100%;
+  height: 54px;
+  padding: 0 15px;
+  margin-top: 8px;
+  color: #253247;
+  background: #fff;
+  border: 1px solid #bfc9d5;
+  border-radius: 11px;
+}
+
+.form-field input[type="date"]:focus {
+  border-color: #16a673;
+  outline: 3px solid rgba(22, 166, 115, .15);
+}
+
+@media (max-width: 767px) {
+  .nav-toggle[aria-expanded="false"] + .main-nav {
+    display: none;
+  }
+}

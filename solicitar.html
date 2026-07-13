@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Enviar solicitação | LFY Créditos</title>
+  <meta name="description" content="Preencha seus dados para enviar uma solicitação relacionada à simulação.">
+  <meta name="robots" content="noindex,follow"><meta name="theme-color" content="#0B1F3A">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="css/styles.css"><link rel="stylesheet" href="css/mobile.css">
+</head>
+<body class="internal-page">
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header simple-header"><div class="container header-inner"><a class="brand" href="index.html" aria-label="LFY Créditos — início"><img src="assets/logo-lfy-creditos.svg" alt="LFY Créditos" width="248" height="56"></a><a class="button button-secondary" href="index.html">Voltar ao início</a></div></header>
+  <div class="demo-banner" data-demo-banner hidden>Simulação demonstrativa — condições ainda não configuradas para contratação.</div>
+  <main id="conteudo">
+    <div class="container page-header"><p class="eyebrow">Etapa 2 de 3</p><h1>Complete sua solicitação</h1><p>Confira a estimativa e informe apenas os dados essenciais para seguirmos com a análise e o contato.</p></div>
+    <div class="container">
+      <ol class="progress-steps" aria-label="Progresso da solicitação"><li class="done">Simulação concluída</li><li class="active" aria-current="step">Seus dados</li><li>Confirmação</li></ol>
+      <div class="request-layout">
+        <section class="form-card" aria-labelledby="form-title">
+          <h2 id="form-title">Seus dados</h2><p class="form-intro">Campos marcados como obrigatórios devem ser preenchidos.</p>
+          <form id="request-form" novalidate>
+            <div class="form-field"><label for="full-name">Nome completo <span aria-hidden="true">*</span></label><input id="full-name" name="name" type="text" maxlength="100" autocomplete="name" aria-describedby="full-name-hint full-name-error" required><small class="field-hint" id="full-name-hint">Informe nome e sobrenome.</small><span class="field-error" id="full-name-error" aria-live="polite"></span></div>
+            <div class="form-field"><label for="birth-date">Data de nascimento <span aria-hidden="true">*</span></label><input id="birth-date" name="birthDate" type="date" autocomplete="bday" aria-describedby="birth-date-hint birth-date-error" required><small class="field-hint" id="birth-date-hint">É necessário ter 18 anos ou mais.</small><span class="field-error" id="birth-date-error" aria-live="polite"></span></div>
+            <div class="form-field"><label for="cpf">CPF <span aria-hidden="true">*</span></label><input id="cpf" name="cpf" type="text" inputmode="numeric" maxlength="14" autocomplete="off" aria-describedby="cpf-hint cpf-error" required><small class="field-hint" id="cpf-hint">Formato: 000.000.000-00</small><span class="field-error" id="cpf-error" aria-live="polite"></span></div>
+            <div class="form-field"><label for="phone">Telefone/WhatsApp <span aria-hidden="true">*</span></label><input id="phone" name="phone" type="tel" inputmode="tel" maxlength="15" autocomplete="tel" aria-describedby="phone-hint phone-error" required><small class="field-hint" id="phone-hint">Celular com DDD, incluindo o 9.</small><span class="field-error" id="phone-error" aria-live="polite"></span></div>
+            <div class="honeypot" aria-hidden="true"><label for="website">Não preencha este campo</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+            <div class="checkbox-field"><label class="checkbox-label" for="adult-consent"><input id="adult-consent" type="checkbox" required><span>Declaro que tenho 18 anos ou mais.</span></label><span class="field-error" id="adult-consent-error" aria-live="polite"></span></div>
+            <div class="checkbox-field"><label class="checkbox-label" for="privacy-consent"><input id="privacy-consent" type="checkbox" required><span>Li o <a href="privacidade.html" target="_blank" rel="noopener">Aviso de Privacidade</a> e autorizo o contato relacionado a esta solicitação.</span></label><span class="field-error" id="privacy-consent-error" aria-live="polite"></span></div>
+            <p class="legal-notice">O envio desta solicitação não representa aprovação, contratação ou liberação do valor. As condições finais deverão ser apresentadas e aceitas antes de qualquer contratação.</p>
+            <button class="button button-primary button-block" id="submit-request" type="submit">Finalizar solicitação</button><p class="form-status" id="form-status" aria-live="polite" role="status"></p>
+          </form>
+        </section>
+        <aside class="request-summary-card" aria-labelledby="summary-title">
+          <h2 id="summary-title">Resumo da simulação</h2>
+          <dl class="request-summary-list"><div><dt>Valor solicitado</dt><dd id="request-amount">—</dd></div><div><dt>Entrada (10%)</dt><dd id="request-down-payment">—</dd></div><div><dt>Valor financiado</dt><dd id="request-financed">—</dd></div><div><dt>Parcelas</dt><dd id="request-installments">—</dd></div><div><dt>Taxa mensal</dt><dd id="request-rate">—</dd></div><div><dt>Parcela aproximada</dt><dd id="request-payment">—</dd></div><div><dt>Total aproximado pago</dt><dd id="request-total">—</dd></div></dl>
+          <a class="button button-secondary button-block" href="index.html#simular">Alterar simulação</a>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-bottom">© <span data-current-year></span> LFY Créditos · <a href="privacidade.html">Privacidade</a> · <a href="termos.html">Termos</a></div></div></footer>
+  <script src="js/config.js"></script><script src="js/utils.js"></script><script src="js/solicitacao.js"></script>
+</body>
+</html>
